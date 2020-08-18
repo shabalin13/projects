@@ -1,0 +1,45 @@
+    1  ip
+    2  shabali13.ip
+    3  gnuplot
+    4  $ brew install gnuplot
+    5  brew install gnuplot
+    6  sudo port install gnuplot
+    7  sudo port install gnuplot
+    8  sudo port install gnuplot
+    9  sudo port install gnuplot4
+   10  $sudo port install gnuplot
+   11  brew install gnuplot
+   12  $brew install gnuplot
+   13  gnuplot
+   14  brew install gnuplot
+   15  $brew install gnuplot
+   16  $ sudo port install gnuplot
+   17  $sudo port install gnuplot
+   18  $$ brew install gnuplot
+   19  $ brew install gnuplot
+   20  $ brew install gnuplot
+   21  $brew install gnuplot
+   22  help
+   23  mkdir ~/week1
+   24  cd ~/week1
+   25  whoami
+   26  hostname
+   27  man whoami
+   28  less
+   29  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   30  gedit ~/week1/ex1.txt
+   31  gedit ~/week1
+   32  ls /usr/bin
+   33  grep gcc
+   34  history > ~/week1/ex2.txt
+   35  Is
+   36  ls
+   37  week1
+   38  echo $PATH
+   39  rm ~/week1
+   40  rm -r ~/week1
+   41  mkdir ~/week1
+   42  cd ~/week1
+   43  s /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   44  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   45  history > ex2.txt
