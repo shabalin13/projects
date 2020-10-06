@@ -1,0 +1,3 @@
+Physical Address refers to real address of physical memory.
+
+Virtual address refers to the virtual store and must be mapped into physical address using MMU. It is abstraction that helps us to provide more memory for programs.

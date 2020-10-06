@@ -1,0 +1,8 @@
+(table at a certain point in time)
+PID    COMMAND      %CPU TIME     #TH   #WQ  #PORT MEM    PURG  CMPRS PGRP  PPID  STATE    BOOSTS           %CPU_ME %CPU_OTHRS UID  FAULTS
+18668  Terminal     25.3 02:57.83 14    7    461+  96M-   17M-  10M-  18668 1     sleeping *0[2958]         0.05256 2.76141    501  4762763+
+21432  top          4.5  00:00.54 1/1   0    25    6032K+ 0B    0B    21432 21418 running  *0[1]            0.00000 0.00000    0    2995+
+21431  ex2          0.9  00:00.02 1     0    10    30M+   0B    0B    21431 21418 sleeping *0[1]            0.00000 0.00000    501  8043+
+21428  ex2          0.9  00:00.07 1     0    10    80M+   0B    0B    21428 21418 sleeping *0[1]            0.00000 0.00000    501  20834+
+
+The process ex2 takes more memory and becomes higher in this table. And when the process ex2 ends, it disappears from the table.

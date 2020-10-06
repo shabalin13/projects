@@ -1,0 +1,4 @@
+We have 8KB for each page => we use 13 bits for offset (8KB = 2^13).
+So, we also have 16-bit virtual addresses => we have 16 - 13 = 3 bits for page number => we can have 2^3 = 8 entries in a single-level linear page table.
+
+Answer: 8
