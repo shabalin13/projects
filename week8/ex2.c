@@ -31,5 +31,5 @@ Mach Virtual Memory Statistics: (page size of 4096 bytes)
    78664   615289    12817   610852        0   556686    80696       17        0        7        0        0      289685    949273  1579883   222177        3        0        0        0        0        0
    78668   615292    12817   610852        0   556686    80696       10        0        5        0        0      289685    949276  1579881   222177        2        0        0        0        0        0
 
- swapins = swapouts = 0  =>  nothing was swapped because there is a lot of physical memory.
+ swapins = swapouts = 0  =>  nothing was swapped because there was a lot of physical memory.
  */
