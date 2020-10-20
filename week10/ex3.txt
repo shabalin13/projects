@@ -1,0 +1,7 @@
+-rw-r--r--  1 shabalin  staff  0 20 окт 13:42 _ex3.txt
+-rwxr--rwx  1 shabalin  staff  0 20 окт 13:42 _ex3.txt
+-rwxrwxrwx  1 shabalin  staff  0 20 окт 13:42 _ex3.txt
+
+Command "chmod 660 _ex3.txt" gives permissions: -rw-rw---- (user(owner) and group can read and write, others don't have permissions)
+Command "chmod 775 _ex3.txt" gives permissions: -rwxrwxr-x (user(owner) and group have all permissions, others cannot write)
+Command "chmod 777 _ex3.txt" gives permissions: -rwxrwxrwx (everyone have all permissions)

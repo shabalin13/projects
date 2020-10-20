@@ -1,0 +1,4 @@
+/Users/shabalin/Desktop/week10/ex2/week01/file.txt
+/Users/shabalin/Desktop/week10/ex2/week10/_ex2.txt
+
+Files are deleted after removing all links
