@@ -1,0 +1,16 @@
+Program 1 prints "Hello" 2 times
+Program 2 prints "Hello" 1 time
+
+UNIX terminals uses line buffering by default
+
+Program 1:
+
+We have "Hello" string
+fork() calls child and parent processes, each of which has the string "Hello" in its buffers
+For each buffer of the child and parent processes, after "\n" the text is printed and the buffer is emptied => "Hello" is printed twice.
+
+Program 2:
+
+We have "Hello\n" string
+After "/n" buffer is emptied
+fork() calls child and parent processes, each containing an empty buffer => "Hello" is printed once
