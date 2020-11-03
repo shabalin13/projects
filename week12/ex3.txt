@@ -1,0 +1,87 @@
+-DBUF_SIZ = 8
+FILE_SIZE = 1M
+Without O_SYNC
+
+real	0m0.975s
+user	0m0.065s
+sys	0m0.413s
+
+----------------
+
+-DBUF_SIZ = 8
+FILE_SIZE = 1M
+With O_SYNC
+
+real	0m4.808s
+user	0m0.083s
+sys	0m2.691s
+
+----------------
+----------------
+
+-DBUF_SIZ = 512
+FILE_SIZE = 1M
+Without O_SYNC
+
+real	0m0.138s
+user	0m0.002s
+sys	0m0.011s
+
+----------------
+
+-DBUF_SIZ = 512
+FILE_SIZE = 1M
+With O_SYNC
+
+real	0m0.336s
+user	0m0.002s
+sys	0m0.045s
+
+----------------
+----------------
+
+-DBUF_SIZ = 8
+FILE_SIZE = 10M
+Without O_SYNC
+
+real	0m5.602s
+user	0m0.640s
+sys	0m4.348s
+
+----------------
+
+-DBUF_SIZ = 8
+FILE_SIZE = 10M
+With O_SYNC
+
+real	0m45.367s
+user	0m0.846s
+sys	0m26.580s
+
+----------------
+----------------
+
+-DBUF_SIZ = 512
+FILE_SIZE = 10M
+Without O_SYNC
+
+real	0m0.546s
+user	0m0.012s
+sys	0m0.079s
+
+----------------
+
+-DBUF_SIZ = 512
+FILE_SIZE = 10M
+With O_SYNC
+
+real	0m0.845s
+user	0m0.014s
+sys	0m0.446s
+
+----------------
+----------------
+
+Bigger buffer size increases the speed of working.
+Bigger file size decrease the speed of working.
+O_SYNC flag slightly decreases the speed of working.
