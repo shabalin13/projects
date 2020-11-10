@@ -1,8 +1,17 @@
 Deadlock Avoidance:
-Avoidance is suitable for programs for which we know information about future requests. If we know the resources that the process will request, we can tell if this leads to an unsafe state.
+Avoidance is suitable for programs for which we know information 
+about future requests. If we know the resources that the process 
+will request, we can tell if this leads to an unsafe state.
 
 Deadlock Prevention:
-Prevention is suitable for programs for which we do not have information about future requests. We also need to be able to set some limits on the system to break one of the deadlock conditions stated by Coffman.
+Prevention is suitable for programs for which we do not have 
+information about future requests. We also need to be able to 
+set some limits on the system to break one of the deadlock 
+conditions stated by Coffman.
 
 Deadlock Recovery:
-Recovery is suitable for a small number of running programs, so we don't spend a lot of time detecting deadlocks. Thus, we get rid of dead ends only when they appear. In addition, recovery through destruction processes is the easiest way to break the deadlock.
+Recovery is suitable for a small number of running programs, 
+so we don't spend a lot of time detecting deadlocks. 
+Thus, we get rid of dead ends only when they appear. 
+In addition, recovery through destruction processes is 
+the easiest way to break the deadlock.
